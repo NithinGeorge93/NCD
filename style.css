@@ -324,10 +324,40 @@
     cursor: pointer;
   }
 
-  .round-icon {
-    width: 20px;
-    height: 20px;
+  .material-icons {
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
+    margin-left: 10px;
+    display: inline-block;
     background-color: #000;
     border: 1px solid #fff;
+  }
+
+  .menu-box {
+    overflow: hidden;
+  }
+
+  .expanded ~ .menu-box {
+    width: 200px;
+  }
+
+  .menu-box ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .menu-box li {
+      cursor: pointer;
+      display: block;
+      line-height: 60px;
+      padding-left: 0px;
+      white-space: nowrap;
+  }
+
+  .menu-box i {
+      color: #9FB1BD;
+      margin-right: 13px;
+      vertical-align: text-bottom;
   }
