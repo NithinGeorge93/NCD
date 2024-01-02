@@ -350,8 +350,7 @@
       align-items: center;
       line-height: 60px;
       padding-left: 0px;
-      width: 100%;
-      white-space: nowrap;
+      flex-direction: row;
   }
 
   .menu-box i {
