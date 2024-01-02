@@ -350,7 +350,7 @@
       align-items: center;
       line-height: 60px;
       padding-left: 0px;
-      flex-direction: row;
+      min-width: 230px;
   }
 
   .menu-box i {
